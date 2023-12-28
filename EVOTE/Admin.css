@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    font-size: 26px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+        font-family: 'Times New Roman', Times, serif;
+        max-width: 700px; height: 527px;
+        margin: 25px 50px 75px 100px;
+        padding: 0;
+        color: #ffffff;        
+        background: linear-gradient(-45deg, #ee7752, #e73c7e);
+        background-size: 400% 400%;
+           animation: gradient 7s ease infinite;
+         }
+         @keyframes gradient {
+           0% {background-position: 0% 50%;}
+           50% {background-position: 100% 50%;}
+           100% {background-position: 0% 50%;}
+        
+}
+form{
+    display: block;
+    font-family: serif;
+    margin: auto;
+    width: 80%;
+    font-size: 19px;
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.6); }
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid blue;
+    font-size: 12px;
+}
+input:focus{
+    background-color:lightgoldenrodyellow;
+    border:2px solid ;
+}
+.LogIn{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 90px;
+    height: 65px;
+    border-radius: 12%;
+    border: 2px coral;
+    background-color:beige;
+    box-shadow:1px 5px 20px magenta;
+    font-weight: italic;
+    font-size: 20px;
+    cursor: pointer;
+}
+.LogIn:active{
+    width: 80px;
+    height: 70px;
+    font-size: 20px;
+}
